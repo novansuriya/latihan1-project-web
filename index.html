@@ -1,20 +1,235 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" />
 
     <!-- font awesome -->
-    <link href="css/all.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet" />
 
-    <title>Hello, world!</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Hefa Store</title>
   </head>
   <body>
-    <h1 class="text-center"><i class="fas fa-globe"></i>Hello, world!</h1>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo_small.png" alt="Hefa Store" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-uppercase mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Designer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <a href="" class="nav-link text-white"><i class="fas fa-shopping-cart"></i> My Cartttttt (<span>12</span>)</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Akhir Navbar -->
+
+    <!-- carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="container">
+          <div class="carousel-item active">
+            <div class="row pt-5 justify-content-center">
+              <div class="col-9 col-sm-4 col-md-6 col-lg-5">
+                <h1 class="mb-4">Spesial Eid Lebaran</h1>
+                <p class="mb-4">Jadikan hari pertama lebaranmu meriah dan memorable</p>
+                <a href="" class="btn btn-warning text-white">Get It Now</a>
+              </div>
+              <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                <img src="img/slideshow/1.png" class="img-fluid" alt="slideshow1" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row pt-5 justify-content-center">
+              <div class="col-9 col-sm-4 col-md-6 col-lg-5">
+                <h1 class="mb-4">Spesial Eid Lebaran</h1>
+                <p class="mb-4">Jadikan hari pertama lebaranmu meriah dan memorable</p>
+                <a href="" class="btn btn-warning text-white">Get It Now</a>
+              </div>
+              <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                <img src="img/slideshow/1.png" class="img-fluid" alt="slideshow1" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row pt-5 justify-content-center">
+              <div class="col-9 col-sm-4 col-md-6 col-lg-5">
+                <h1 class="mb-4">Spesial Eid Lebaran</h1>
+                <p class="mb-4">Jadikan hari pertama lebaranmu meriah dan memorable</p>
+                <a href="" class="btn btn-warning text-white">Get It Now</a>
+              </div>
+              <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                <img src="img/slideshow/1.png" class="img-fluid" alt="slideshow1" />
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir carousel -->
+
+    <!-- Brand -->
+    <section class="brands">
+      <div class="container">
+        <div class="row p-5 text-center">
+          <div class="col">
+            <img src="img/brand/cc.png" alt="imgbrand1" class="img-fluid" />
+          </div>
+          <div class="col">
+            <img src="img/brand/nike.png" alt="imgbrand2" class="img-fluid" />
+          </div>
+          <div class="col">
+            <img src="img/brand/pnb.png" alt="imgbrand3" class="img-fluid" />
+          </div>
+          <div class="col">
+            <img src="img/brand/uniqlo.png" alt="imgbrand4" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Brand -->
+
+    <!-- features -->
+    <section class="features bg-light p-5">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col">
+            <h3>Special Eid</h3>
+            <p>Promo pakaian cocok untuk lebaran</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <div class="figure-img">
+                <img src="img/feature/1.png" class="figure-img img-fluid" />
+                <a href="" class="d-flex justify-content-center">
+                  <img src="img/detail.png" class="align-self-center" />
+                </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <h5>Jeans Pubb</h5>
+                <p>IDR 190.300</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <div class="figure-img">
+                <img src="img/feature/2.png" class="figure-img img-fluid" />
+                <a href="" class="d-flex justify-content-center">
+                  <img src="img/detail.png" class="align-self-center" />
+                </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <h5>Jeans Pubb</h5>
+                <p>IDR 190.300</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <div class="figure-img">
+                <div class="figure-img">
+                  <img src="img/feature/3.png" class="figure-img img-fluid" />
+                  <a href="" class="d-flex justify-content-center">
+                    <img src="img/detail.png" class="align-self-center" />
+                  </a>
+                </div>
+                <a href="" class="d-flex justify-content-center">
+                  <img src="img/detail.png" class="align-self-center" />
+                </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <h5>Jeans Pubb</h5>
+                <p>IDR 190.300</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <div class="figure-img">
+                <img src="img/feature/1.png" class="figure-img img-fluid" />
+                <a href="" class="d-flex justify-content-center">
+                  <img src="img/detail.png" class="align-self-center" />
+                </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <h5>Jeans Pubb</h5>
+                <p>IDR 190.300</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <div class="figure-img">
+                <img src="img/feature/2.png" class="figure-img img-fluid" />
+                <a href="" class="d-flex justify-content-center">
+                  <img src="img/detail.png" class="align-self-center" />
+                </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <h5>Jeans Pubb</h5>
+                <p>IDR 190.300</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <div class="figure-img">
+                <img src="img/feature/3.png" class="figure-img img-fluid" />
+                <a href="" class="d-flex justify-content-center">
+                  <img src="img/detail.png" class="align-self-center" />
+                </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <h5>Jeans Pubb</h5>
+                <p>IDR 190.300</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir features -->
 
     <!-- script javascript -->
     <script src="js/bootstrap.js"></script>
