@@ -35,13 +35,16 @@ body {
   font-weight: 200;
 }
 
-.features h3 {
+.features h3,
+.designer h3 {
   font-family: 'Lora';
   color: #1b2690;
   font-weight: bold;
 }
 
-.features p {
+.features p,
+.designer p,
+.footer p {
   font-weight: 200;
   color: #b7b7b7;
 }
@@ -67,4 +70,12 @@ body {
 
 .figure-img:hover a {
   opacity: 1;
+}
+
+.col-4 {
+  text-align: right;
+}
+
+nav.nav.justify-content-end a.nav-link {
+  padding-right: 0px;
 }
