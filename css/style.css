@@ -37,7 +37,8 @@ body {
 }
 
 .features h3,
-.designer h3 {
+.designer h3,
+.similar-product h3 {
   font-family: 'Lora';
   color: #1b2690;
   font-weight: bold;
@@ -45,7 +46,8 @@ body {
 
 .features p,
 .designer p,
-.footer p {
+.footer p,
+.similar-product p {
   font-weight: 200;
   color: #b7b7b7;
 }
@@ -121,4 +123,45 @@ body {
 
 .designed-by p span {
   color: #b7b7b7;
+}
+
+/* Product & Review */
+
+.product-description {
+  background-color: #f6f7fb;
+  height: 350px;
+}
+
+.product-description .tab-content {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-description .tab-content p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #868686;
+  line-height: 28px;
+}
+
+.product-review {
+  height: 330px;
+  overflow: scroll;
+}
+
+.product-review h5 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.product-review p {
+  font-size: 14px !important;
+}
+
+.similar-product {
+  margin-top: 180px;
+  margin-bottom: 100px;
 }
