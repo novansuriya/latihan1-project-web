@@ -40,7 +40,8 @@ body {
 .designer h3,
 .similar-product h3,
 .cart-header h3,
-.checkout-modal-success h3 {
+.checkout-modal-success h3,
+.category h3 {
   font-family: 'Lora';
   color: #1b2690;
   font-weight: bold;
@@ -51,7 +52,8 @@ body {
 .footer p,
 .similar-product p,
 .cart-header p,
-.checkout-modal-success p {
+.checkout-modal-success p,
+.category p {
   font-weight: 200;
   color: #b7b7b7;
 }
@@ -178,4 +180,8 @@ body {
   background-color: #f6f7fb;
   border: 1px solid #eaeaea;
   color: #171717;
+}
+
+.category {
+  margin-top: 100px;
 }
